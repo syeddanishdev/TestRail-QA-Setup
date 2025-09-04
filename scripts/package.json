@@ -1,0 +1,14 @@
+{
+  "name": "testrail-playwright",
+  "version": "1.0.0",
+  "description": "TestRail automation with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "start": "node testrail-api.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.48.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  }
+}
